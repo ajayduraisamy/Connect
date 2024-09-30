@@ -1,0 +1,53 @@
+.home {
+  background-image: url('../img/ho.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 20px;
+ 
+
+}
+
+.home h1 {
+  font-size: 3rem; 
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.home p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  line-height: 1.6; 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+.home-content {
+  background:orange;
+  border-radius: 8px;
+  max-width: 300px;
+  margin-left: 450px;
+}
+
+.home-content h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.home-content p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+
+.get-started-link {
+  text-decoration: none; 
+  color: inherit; 
+}

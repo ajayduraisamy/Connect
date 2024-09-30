@@ -1,0 +1,50 @@
+.project-list-container {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+   
+  }
+  
+  .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+  }
+  .project-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .project-card:active {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  .project-title {
+    margin-top: 0;
+  }
+  
+  .project-description {
+    margin: 10px 0;
+  }
+  
+  .project-skills,
+  .project-location {
+    margin: 5px 0;
+  }
+  
